@@ -1,7 +1,7 @@
 #Evaluate Reverse Polish Notation (RPN)
 
 #infix expression: 2 + 1 * 3
-#postfix expression: 2 1 3 * +
+#postfix expression: 2 1 + 3 *
 
 #We will use a stack to evaluate the RPN expression. We will iterate through each token in the expression and perform the following steps:
 
