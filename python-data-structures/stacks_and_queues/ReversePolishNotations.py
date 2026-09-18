@@ -63,5 +63,3 @@ result = eval_rpn(test_tokens)
 print("-" * 40)
 print(f"The final result is: {result}")
 
-# hi
-
