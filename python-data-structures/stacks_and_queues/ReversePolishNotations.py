@@ -9,7 +9,7 @@
 
 # If the token is an operator, we will pop the top two numbers from the stack, perform the operation, and push the result back onto the stack.
 
-#-------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------
 
 # this runs in 0(n) time and 0(n) space 
 
