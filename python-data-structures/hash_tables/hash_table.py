@@ -56,4 +56,3 @@ print("\n--- The Raw Hash Table Memory ---")
 for idx, bucket in enumerate(my_hash.table):
     print(f"Index {idx}: {bucket}")
 
-#hi
