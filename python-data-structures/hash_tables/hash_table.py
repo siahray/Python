@@ -1,7 +1,7 @@
 class HashTable:
     def __init__(self, size=10):
         # We create a list of empty lists. 
-        # The inner lists allow us to store multiple items at the same index if a "collision" happens.
+        # The inner lists allow us to store multiple items at the same index if a "collision" happens
         self.table = [[] for _ in range(size)]
 
     def _hash(self, key):
