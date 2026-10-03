@@ -5,7 +5,7 @@ class HashTable:
         self.table = [[] for _ in range(size)]
 
     def _hash(self, key):
-        # A basic hash function: sums the ASCII values of the characters and uses modulo
+        # A basic hash function: sums the ASCII values of the characters and uses modulo.
         hash_value = sum(ord(char) for char in key) % len(self.table)
         print(f"  [Hash Engine] Key '{key}' converted to index: {hash_value}")
         return hash_value
