@@ -42,7 +42,7 @@ class HashTable:
 print("--- Starting Hash Table Operations ---")
 my_hash = HashTable(size=5) # Small size to force collisions intentionally
 
-# Storing data
+# Storing datas
 my_hash.set_item("apple", 100)
 my_hash.set_item("banana", 200)
 my_hash.set_item("grape", 300) # Watch what index this gets!
